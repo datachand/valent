@@ -1,1 +1,135 @@
-$null 
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background: rgba(249, 249, 249, 1.0);*/
+
+    overflow: hidden;
+}
+
+.application-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    background: rgba(249, 249, 249, 1.0);
+    /*box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px 3px;
+    -webkit-transform: scale3d(1, 1, 1);
+    -moz-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    -o-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    -webkit-transition: all 400ms cubic-bezier(0.175, 0.885, 0.335, 1.05);
+    -moz-transition: all 400ms cubic-bezier(0.175, 0.885, 0.335, 1.05);
+    -o-transition: all 400ms cubic-bezier(0.175, 0.885, 0.335, 1.05);
+    transition: all 400ms cubic-bezier(0.175, 0.885, 0.335, 1.05);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;*/
+
+}
+
+
+.help-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    /*background: #ECE9E6;  fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to left, #ECE9E6 , #FFFFFF);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #AA076B; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #AA076B , #61045F); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #AA076B , #61045F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgba(255, 255, 255, 1.0);    
+    padding: 7.5% 1%;
+}
+
+.help-content a {
+    font-size: 3vh;
+    color: rgba(255, 255, 255, 1.0);
+    text-decoration: none;
+}
+
+.help-content a:hover, .help-content a:active {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.push-help-content {
+
+}
+
+.translate-application-content {
+    z-index: 1;
+    transform: translate3d(40%, 0, 0) scale3d(0.85, 0.85, 1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px 3px;
+    -webkit-transition: all 400ms cubic-bezier(0.175, 0.885, 0.335, 1.05);
+    -moz-transition: all 400ms cubic-bezier(0.175, 0.885, 0.335, 1.05);
+    -o-transition: all 400ms cubic-bezier(0.175, 0.885, 0.335, 1.05);
+    transition: all 400ms cubic-bezier(0.175, 0.885, 0.335, 1.05);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.pattern-form {
+
+}
+
+.pattern-form .form-group {
+        padding: 5% 0;
+}
+
+.pattern-form textarea {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 1.0);
+    border-radius: 0;
+    margin-bottom: 5%;
+}
+
+.align-horizontal {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.align-vertical {
+    vertical-align:middle;
+    display: table-cell;
+}
+
+.application-content h1 {
+    margin-bottom: 30px !important;
+}
+
+.feedback {
+    color: rgba(0, 0, 0, 1.0);
+    padding: 1% 2%;
+    border: 2px solid rgba(0, 0, 0, 1.0);
+    margin-top: 5%;
+}
+
+.feedback:hover, .feedback:active {
+    color: rgba(255, 255, 255, 1.0);
+    background: rgba(0, 0, 0, 1.0);
+    transition: background 1s linear;
+    text-decoration: none;
+}
