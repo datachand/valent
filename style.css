@@ -127,7 +127,7 @@ body {
     margin-top: 5%;
 }
 
-.feedback:hover, .feedback:active {
+.feedback:hover, .feedback:active, .feedback:focus, .feedback:visited {
     color: rgba(255, 255, 255, 1.0);
     background: rgba(0, 0, 0, 1.0);
     transition: background 1s linear;
